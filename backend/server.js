@@ -3,11 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/health", (req, res) => {
-<<<<<<< HEAD
-  res.json({ status: "ok", service: "vitalsync", timestamp: new Date() });
-=======
   res.json({ status: "ok", version: "1.0.0", timestamp: new Date() });
->>>>>>> feature/update-health
 });
 
 
